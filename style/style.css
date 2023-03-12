@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+html, body {
+    width: 100%;
+
+}
+
+.area {
+    margin: auto;
+    margin-top: 40px;
+    width: 80%;
+}
+input {
+    margin-left: 10px;
+    width: 150px;
+    padding: 10px;
+    font-size: 13px;
+    margin-right: 10px;
+    border: 2px solid #37803a;
+    border-bottom: 0;
+}
+
+.area > textarea {
+    resize: none;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    font-family: "Cascadia Code";
+    border: 2px solid #37803a;
+    outline: none;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.btn1 , .btn2 {
+    margin-top: 4px;
+    box-sizing: border-box;
+    width: 130px;
+    position: relative;
+    margin-right: 20px;
+    height:45px;
+    display: inline-block;
+}
+
+
+
+button{
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:"Noto", "Helvetica";
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background: inherit;
+}
+
+.btn2 > button {
+
+    border: 2px solid #ff1f1f;
+}
+
+.btn1 > button {
+    border: 2px solid #4CAF50;
+}
+.btn1 > button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+textarea:hover {
+    border-radius: 10px;
+}
+
+.btn2 > button:hover {
+    background-color: #ff1f1f;
+    color: white;
+}
+
+.message {
+width: 67%;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 15px;
+    color: #f54c4c;
+    font-weight: 600;
+    font-family:"Noto", "Helvetica";
+}
+
+.butt {
+    width: 100%;
+    position: absolute;
+box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    bottom: 0px;
+    padding: 20px;
+    top: 60%;
+    min-height: 45%;
+    height: fit-content;
+    box-sizing: border-box;
+    border-top:1px solid #000000;
+}
+.textarea:active {
+    border: 2px solid #35a43c;
+}
+
+.btnResult {
+    height: 40px;
+    font-size: 20px;
+    position: absolute;
+    border:1px solid red;
+    width: 40px;
+    background: white;
+    border-radius: 100%;
+    right: 30px;
+}
+
+.btnResult:hover {
+    background: #ffbaba;
+width: 43px;
+    height: 43px;
+}
+
+.error {
+    font-size:18px;
+}
+
+button:disabled:hover {
+    background: inherit;
+    color: #888888 !important;
+}
+
+table {
+    width: 100%;
+    border-collapse:collapse;
+    margin: auto;
+}
+thead {
+   text-align: center;
+    background: #cecece;
+    color: black;
+}
+
+thead > th {
+font-size: 16px;
+    font-family: "Cascadia Code";
+    padding: 7px;
+}
+
+thead th:first-child {
+    padding-left:15px;
+    text-align: left;
+    border-radius: 8px 0 0 0;
+}
+
+thead th:last-child {
+    border-radius: 0 8px 0 0;
+}
+tbody {
+    color: black;
+    font-weight: 400;
+    font-size:15px !important;
+    font-family: "Noto", "Helvetica" !important;
+}
+
+tbody:nth-child(2n+1) {
+    background: #eeeeee;
+        color:black;
+
+}
+tbody tr td:first-child {
+    text-align: left;
+}
+tbody tr td {
+    padding: 10px 15px;
+text-align: center;
+}
+
+tbody:last-child > tr:last-child td  {
+    border-radius: 0 0 8px 8px;
+}
